@@ -1,14 +1,14 @@
 {
-  "name": "json-bigint",
-  "version": "0.3.0",
-  "description": "JSON.parse with bigints support",
+  "name": "omg-json-bigint",
+  "version": "1.0.0",
+  "description": "OMG fork of sidorares/json-bigint.git",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -R spec --check-leaks test/*-test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sidorares/json-bigint.git"
+    "url": "git@github.com:omisego/json-bigint.git"
   },
   "keywords": [
     "JSON",
@@ -17,7 +17,7 @@
     "parse",
     "json"
   ],
-  "author": "Andrey Sidorov <sidorares@yandex.ru>",
+  "author": "OmiseGO",
   "license": "MIT",
   "dependencies": {
     "bn.js": "^5.0.0"
